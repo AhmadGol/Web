@@ -159,7 +159,7 @@ li > a{
 
 #picture-compony{
   margin-top: 80px;
-  margin-left: 100px;
+  margin-left: 10%;
   width: 55%;
 }
 
@@ -172,7 +172,7 @@ li > a{
 #sec1{
   user-select: none;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 10%;
   direction: rtl;
   padding: 0px 10px;
   width: 60%;
@@ -190,7 +190,7 @@ background-repeat: no-repeat;
 #sec2{
   justify-self: center;
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 10%;
   direction: rtl;
   padding: 0px 10px;
   width: 80%;
@@ -227,13 +227,13 @@ background-repeat: no-repeat;
 
 
 .history #sec1 p{
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 2vmax;
+  font-weight: 600;
   color: white;
 }
 
   #sec2 p{
-  font-size: 30px;
+  font-size: 2vmax;
   font-weight: 700;
   color: white;
 }
@@ -265,39 +265,6 @@ background-repeat: no-repeat;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .history #sec1 p{
-    font-size:smaller ;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .history #sec1 p{
-    font-size:10px ;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .history #sec1 p{
-    font-size:20px ;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #sec2 p{
-    font-size:smaller ;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  #sec2 p{
-    font-size:10px ;
-  }
-}
-@media screen and (max-width: 1300px) {
-  #sec2 p{
-    font-size:20px ;
-  }
-}
 
 #phone{
   display: flex;
