@@ -125,6 +125,9 @@ li > a {
   #topRow {
     translate: -10.33% 0px;
   }
+  .logo {
+    margin-left: 220px;
+  }
 }
 
 @media screen and (max-width: 768px) {
