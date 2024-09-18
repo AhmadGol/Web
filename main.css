@@ -130,8 +130,12 @@ li > a{
 
 @media screen and (max-width: 768px) {
   #bottomRow, #topRow{
-    translate: -8.33% 0px;
+    translate: -10.33% 0px;
   }
+}
+
+  @media screen and (max-width: 768px) {
+    
   #bottomRow > div, #topRow > div{
     margin-top: 5%;
   }
@@ -146,10 +150,11 @@ li > a{
   display: inline-flex;
   flex-direction: column;
   justify-content: start;
+  margin-top: 5%;
 }
 
 .history-2{
-  margin-top: 300px;
+  margin-top: 25%;
   display: inline-block;
   width: 40%;
   float: right;
@@ -248,7 +253,11 @@ background-repeat: no-repeat;
   background-color: darkturquoise;
 }
 
-@media screen and (max-width: 768px) {
+#endingSection div h2{
+  font-size:1.2vmax;
+}
+
+/*@media screen and (max-width: 768px) {
   #endingSection div h2{
     font-size:smaller ;
   }
@@ -263,7 +272,7 @@ background-repeat: no-repeat;
   #endingSection div h2{
     font-size:15px ;
   }
-}
+}*/
 
 
 #phone{
